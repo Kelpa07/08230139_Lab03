@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Portfolio — Home</title>
+
+  <!-- Google font used in the design -->
+  <link
+href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons used on other pages -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER: navigation + theme toggle -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <!-- Brand -->
+      <a class="brand" href="index.html">KELPA</a>
+
+      <!-- Main navigation -->
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <!-- Theme toggle button (persistent setting) -->
+      <button id="theme-toggle" class="btn ghost small" aria-pressed="false" title="Toggle theme">🌙 Dark Mode</button>
+    </div>
+  </header>
+
+  <!-- MAIN: Hero + About -->
+  <main>
+    <!-- HERO section -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left animate-on-load">
+          <p class="eyebrow">Hello, I’m</p>
+          <h1 class="hero-title">Karma Chimi Rinzin</h1>
+          <p class="hero-sub">B.ed IT Third Year · Web Developer · Creative Problem Solver</p>
+          <p class="hero-desc">
+            I design simple, elegant websites and learning resources. I’m passionate about building projects that help students and teachers use technology better. And I also enjoy playing volleyball.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn primary" href="projects.html">View Projects</a>
+            <a class="btn ghost" href="contact.html">Get in touch</a>
+          </div>
+        </div>
+
+        <div class="hero-right animate-on-load">
+          <!-- profile card with small tilt interaction -->
+          <div class="profile-card image-tilt">
+            <img src="me.jpg" alt="Profile picture" class="profile-img">
+            <div class="profile-info">
+              <h3>Karma Chimi Rinzin</h3>
+              <p>B.ed IT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME section -->
+    <section class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <p class="muted">I don't consider myself as a talented guy, but I am confident enough to know that I can do anything if I learn it. I like playing online games and volleyball. I am also interested in drawing and digital trading.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text animate-on-scroll">
+            <p>
+              I’m studying B.Ed in ICT at Samtse College of Education. I enjoy building small web projects, learning new tech, and solving problems through code and design. My friends call me Kelpa.
+            </p>
+            <ul class="about-list">
+              <li><strong>Location:</strong> Samtse, Bhutan</li>
+              <li><strong>Interests:</strong> drawing, playing volleyball and gaming</li>
+              <li><strong>Available for:</strong> student projects, collaborations</li>
+            </ul>
+          </div>
+
+          <div class="about-images animate-on-scroll">
+            <img src="me2.jpg" alt="Work sample 1" class="about-img">
+            <img src="me3.jpg" alt="Work sample 2" class="about-img small">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Karma Chimi Rinzin.</p>
+    </div>
+  </footer>
+
+  <!-- Link to JavaScript (behaviour + interactivity) -->
+  <script src="script.js"></script>
+</body>
+</html>
+

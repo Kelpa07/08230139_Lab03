@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — KELPA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="brand" href="index.html">KELPA</a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+
+      <button id="theme-toggle" class="btn ghost small" aria-pressed="false" title="Toggle theme">🌙 Dark Mode</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact Me</h2>
+          <p class="muted">I’d love to hear from you.</p>
+          <p><strong>Email:</strong> <a href="mailto:krinzinchimi619gmail.com">krinzinchimi619gmail.com</a></p>
+
+          <div class="contact-cards">
+            <div class="contact-card animate-on-scroll">
+              <i class="fab fa-github"></i>
+              <p><a href="https://github.com/Kelpa07" target="_blank">GitHub</a></p>
+            </div>
+            <div class="contact-card animate-on-scroll">
+              <i class="fab fa-facebook"></i>
+              <p><a href="https://www.facebook.com/krinzinchimi619" target="_blank">Facebook</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact form: simulated server storage in script.js -->
+        <form class="contact-form" action="#" method="post">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Karma Chimi Rinzin.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
